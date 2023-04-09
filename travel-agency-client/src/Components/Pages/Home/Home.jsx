@@ -1,10 +1,16 @@
 import React from 'react';
+import Hero from '../../HeroSection/Hero';
+import BusinessSummery from '../../BusinessSummery/BusinessSummery';
+import ExploreWorld from '../../ExploreWorld/ExploreWorld';
+// import Hero from '../../HeroSection/Hero';
 
 const Home = () => {
     return (
-        <div>
-            <p className='text-red-500'>Home</p>
-        </div>
+        <>
+            <Hero />
+            <BusinessSummery />
+            <ExploreWorld />
+        </>
     );
 };
 

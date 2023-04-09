@@ -5,6 +5,8 @@
 // import Navlogo from '../../assets/img/Lafz_logo_black.png'
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../../Components/components.style.css';
+import SiteLogo from '../../assets/Icons/deasil_tavel-1.png'
 
 const Navbar = () => {
 
@@ -22,15 +24,15 @@ const Navbar = () => {
     const menuItems =
         <>
             <li><a href='/'>Home</a></li>
-            <li><Link to='/shop' >Shop</Link></li>
+            <li><Link to='/shop' >Contact-Us</Link></li>
             <li><Link to='/blogs' >Blog</Link></li>
-            <li><Link to='/reviews' >Reviews</Link></li>
+            <li><Link to='/reviews' >About</Link></li>
             {/* {user && <li><Link to='/dashboard' >Dashboard</Link></li>} */}
             {/* {user && <li><Link to='/manageProduct' >Manage Product</Link></li>} */}
         </>
 
     return (
-        <div className="navbar bg-base1 top-0 text-white ">
+        <div className="navbar fixe bg-transparen top- text-white ">
 
             <div className="navbar-start">
                 {/* mobile dropdown  */}
@@ -55,7 +57,7 @@ const Navbar = () => {
                         marginLeft: '10px',
                         // objectFit: 'cover'
                     }}
-                        alt='' src={dummyUserPhoto} />
+                        alt='' src={SiteLogo} />
                 </a >
             </div >
             <div className="navbar-center hidden lg:flex " >

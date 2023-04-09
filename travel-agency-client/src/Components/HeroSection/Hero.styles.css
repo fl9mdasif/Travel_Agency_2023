@@ -1,0 +1,139 @@
+/* hero section starts  */
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+    color: #0a2cb2 !important;
+}
+
+.swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet,
+.swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+    background-color: #0a2cb2 !important
+}
+
+/* small device  600px below */
+
+@media only screen and (max-width: 600px) {
+    .relative {
+        position: relative;
+    }
+
+    .absolute1 {
+        position: absolute;
+        top: 150px;
+        left: 135px;
+
+    }
+
+
+    .sliderImg {
+        height: 500px !important;
+        object-fit: cover !important;
+    }
+
+
+    .hero-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 37%;
+        right: 17%;
+        left: 17%;
+        justify-content: start
+    }
+
+
+    .heroP {
+        color: #fff;
+        margin-top: 30px;
+
+
+
+    }
+
+    .hero-h1 {
+        font-size: 40px;
+        width: 250px;
+        color: #fff;
+        font-weight: 500;
+        line-height: 45px;
+
+    }
+}
+
+.heroBtn {
+    border-radius: 0;
+    border: 0;
+    width: 145px !important;
+    border-radius: 15px;
+    color: #fff !important;
+    position: relative;
+    /* left: 0px !important */
+
+}
+
+
+/* .relative a {
+    position: absolute;
+    right: -20% !importants;
+    top: 20px;
+} */
+
+
+
+/* large device  600px and up) */
+@media only screen and (min-width: 600px) {
+    .relative {
+        position: relative;
+    }
+
+    /* .absolute1 {
+        position: absolute;
+        top: 60%;
+        right: 50%;
+    } */
+
+    .sliderImg {
+        height: 100vh !important;
+        width: 100% !important
+    }
+
+    .hero-section {
+        overflow: hidden !important;
+        width: 100% !important;
+        /* position: absolute; */
+        /* top: 0 !important */
+    }
+
+
+
+    .hero-content {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        top: 37%;
+        right: 50px;
+        left: 0%;
+        justify-content: start
+    }
+
+
+    .heroP {
+        color: #fff;
+        margin-top: 30px;
+        width: 450px;
+
+    }
+
+
+
+    .hero-h1 {
+        font-size: 60px;
+        width: 450px;
+        color: #fff;
+        font-weight: 600;
+        line-height: 50px;
+
+    }
+}
+
+/* hero section end  */

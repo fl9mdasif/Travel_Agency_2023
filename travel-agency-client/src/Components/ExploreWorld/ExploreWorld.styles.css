@@ -1,0 +1,10 @@
+.ex-cont {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.explore-content {
+    width: 400px;
+}
