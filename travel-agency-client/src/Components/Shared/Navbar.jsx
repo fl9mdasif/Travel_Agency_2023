@@ -41,7 +41,7 @@ const Navbar = () => {
                     <label tabIndex="0" className="btn  btn-ghost lg:hidden">
                         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
                     </label >
-                    <ul tabIndex="0" style={{ backgroundColor: '#912059' }}
+                    <ul tabIndex="0" style={{ backgroundColor: '#0a2cb2' }}
                         className="menu bg-red-300 menu-compact dropdown-content mt-3 p-2 shadow text- rounded-box w-52" >
                         {menuItems}
                     </ul >

@@ -5,7 +5,7 @@ import CountUp from 'react-countup';
 const BusinessSummery = () => {
     return (
         <div className="BusinessSummery relative ">
-            <div className="flex  flex-wrap  justify-around">
+            <div className="flex flex-wrap  justify-around">
 
                 <div className="summery-container flex flex-col justify-center ">
                     <div className="flex justify-center"><box-icon type='solid' color='#912059' size='' name='gift'></box-icon></div>
